@@ -1,0 +1,42 @@
+{
+  "name": "use-validate-react",
+  "version": "1.0.1",
+  "description": "use-validate-react is a lightweight and flexible React hook that simplifies form validation. It supports both default and custom validation rules for easy form handling.",
+  "main": "dist/useValidateReact.js",
+  "module": "dist/useValidateReact.js",
+  "types": "dist/useValidateReact.d.ts",
+  "exports": {
+    "import": "./dist/useValidateReact.js",
+    "require": "./dist/useValidateReact.js",
+    "types": "./dist/useValidateReact.d.ts"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "nextjs",
+    "react-native",
+    "validation",
+    "form-validation",
+    "hooks",
+    "react-hooks"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wali-developer/use-validate-react.git"
+  },
+  "author": "Wali Ullah",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "typescript": "^5.7.3"
+  }
+}
